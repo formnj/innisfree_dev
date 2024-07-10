@@ -1,0 +1,213 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  box-sizing: border-box;
+  text-decoration: inherit;
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+del {
+  text-decoration: line-through;
+}
+
+body,
+pre,
+textarea,
+button {
+  color: #222;
+  font-size: 14px;
+  font-family: 'Pretendard', sans-serif;
+  touch-action: pan-x pan-y;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+select,
+textarea,
+input {
+  box-sizing: border-box;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+iframe,
+fieldset {
+  border: none;
+}
+
+.hidden {
+  position: fixed;
+  left: -10000px;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+input {
+  vertical-align: middle;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='tel'],
+input[type='password'],
+input[type='url'],
+input[type='search'],
+input[type='file'],
+textarea {
+  height: 40px;
+  padding: 0 15px;
+  background-color: #fff;
+  border: 1px solid #e8e5e2;
+  border-radius: 0;
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+input[type='password']::-ms-reveal,
+input[type='password']::-ms-clear {
+  display: none;
+}
+
+em {
+  font-style: normal;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  word-break: break-all;
+  text-decoration: none;
+}
+
+/* Pretendard */
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 900;
+  font-display: auto;
+  src:
+    local('Pretendard Black'),
+    url('@inmModule/assets/fonts/Pretendard-Black.woff2') format('woff2'),
+    url('@inmModule/assets/fonts/Pretendard-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 800;
+  font-display: auto;
+  src:
+    local('Pretendard ExtraBold'),
+    url('@inmModule/assets/fonts/Pretendard-ExtraBold.woff2') format('woff2'),
+    url('@inmModule/assets/fonts/Pretendard-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 700;
+  font-display: auto;
+  src:
+    local('Pretendard Bold'),
+    url('@inmModule/assets/fonts/Pretendard-Bold.woff2') format('woff2'),
+    url('@inmModule/assets/fonts/Pretendard-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 600;
+  font-display: auto;
+  src:
+    local('Pretendard SemiBold'),
+    url('@inmModule/assets/fonts/Pretendard-SemiBold.woff2') format('woff2'),
+    url('@inmModule/assets/fonts/Pretendard-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 500;
+  font-display: auto;
+  src:
+    local('Pretendard Medium'),
+    url('@inmModule/assets/fonts/Pretendard-Medium.woff2') format('woff2'),
+    url('@inmModule/assets/fonts/Pretendard-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 400;
+  font-display: auto;
+  src:
+    local('Pretendard Regular'),
+    url('@inmModule/assets/fonts/Pretendard-Regular.woff2') format('woff2'),
+    url('@inmModule/assets/fonts/Pretendard-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 300;
+  font-display: auto;
+  src:
+    local('Pretendard Light'),
+    url('@inmModule/assets/fonts/Pretendard-Light.woff2') format('woff2'),
+    url('@inmModule/assets/fonts/Pretendard-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 200;
+  font-display: auto;
+  src:
+    local('Pretendard ExtraLight'),
+    url('@inmModule/assets/fonts/Pretendard-ExtraLight.woff2') format('woff2'),
+    url('@inmModule/assets/fonts/Pretendard-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 100;
+  font-display: auto;
+  src:
+    local('Pretendard Thin'),
+    url('@inmModule/assets/fonts/Pretendard-Thin.woff2') format('woff2'),
+    url('@inmModule/assets/fonts/Pretendard-Thin.woff') format('woff');
+}

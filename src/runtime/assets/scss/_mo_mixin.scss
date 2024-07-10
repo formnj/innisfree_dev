@@ -1,0 +1,81 @@
+@media (max-width: 749px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media (max-width: 639px) {
+  html {
+    font-size: 86%;
+  }
+}
+@media (max-width: 519px) {
+  html {
+    font-size: 69%;
+  }
+}
+@media (max-width: 413px) {
+  html {
+    font-size: 68.5%;
+  }
+}
+@media (max-width: 410px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media (max-width: 374px) {
+  html {
+    font-size: 60%;
+  }
+}
+@media (max-width: 359px) {
+  html {
+    font-size: 8.5px;
+  }
+}
+@media screen and (orientation: landscape) {
+  html {
+    font-size:62.5%;
+  }
+}
+
+@mixin mo_749 {
+  @media (max-width: 749px) {
+    @content;
+  }
+}
+@mixin mo_639 {
+  @media (max-width: 639px) {
+    @content;
+  }
+}
+@mixin mo_519 {
+  @media (max-width: 519px) {
+    @content;
+  }
+}
+@mixin mo_413 {
+  @media (max-width: 413px) {
+    @content;
+  }
+}
+@mixin mo_410 {
+  @media (max-width: 410px) {
+    @content;
+  }
+}
+@mixin mo_374 {
+  @media (max-width: 374px) {
+    @content;
+  }
+}
+@mixin mo_359 {
+  @media (max-width: 359px) {
+    @content;
+  }
+}
+@mixin mo_landscape {
+  @media screen and (orientation: landscape) {
+    @content;
+  }
+}

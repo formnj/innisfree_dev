@@ -1,0 +1,12 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "allowJs": true
+  },
+  "exclude": ["node_modules", "dist", "src/runtime/assets/js", "src/runtime/test/data"]
+}
